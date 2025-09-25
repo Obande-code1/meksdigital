@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEKS Coding & Robotic Club</title>
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">MEKS Club</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#offer">Offerings</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#join">Join</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <div class="carousel">
+    <div class="carousel-track" id="track">
+      
+      <div class="carousel-slide">
+        <img src="image/istockphoto-2200128716-612x612.webp" alt="Robotics">
+        <div class="overlay">
+          <div>
+            <h1>Welcome to MEKS Coding & Robotic Club</h1>
+            <p>Unlock the world of technology, coding, and robotics with hands-on learning and real projects.</p>
+            <div class="buttons">
+              <a href="" class="btn1">Learn More</a>
+              <a href="" class="btn2">Join Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <img src="image/gettyimages-1395428816-2048x2048.jpg" alt="Coding">
+        <div class="overlay">
+          <div>
+            <h1>Build, Code & Innovate</h1>
+            <p>Explore the future with robotics programs designed to inspire creativity and problem-solving.</p>
+            <div class="buttons">
+              <a href="" class="btn1">Our Projects</a>
+              <a href="" class="btn2">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <img src="image/istockphoto-2219678630-612x612.webp" alt="Team">
+        <div class="overlay">
+          <div>
+            <h1>Empowering Young Minds</h1>
+            <p>We nurture tomorrow’s tech leaders with mentorship, teamwork, and competitions worldwide.</p>
+            <div class="buttons">
+              <a href="" class="btn1">See Events</a>
+              <a href="" class="btn2">Register Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Arrows -->
+    <button class="arrow left" id="prev">&#10094;</button>
+    <button class="arrow right" id="next">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <section id="about" class="about-us">
+  <div class="container">
+    <h2>About Us</h2>
+    <p class="intro">
+      MEKS Coding and Robotic Club is a creative hub for young minds passionate about technology. 
+      We teach coding, robotics, and problem-solving skills to prepare students for the digital future.
+    </p>
+
+    <div class="about-content">
+      <div class="left">
+        <h3>Why This Matters for Our Students</h3>
+        <ul>
+          <li><strong>Coding</strong> improves logical thinking, creativity, and problem-solving.</li>
+          <li><strong>Robotics</strong> sparks curiosity and makes learning science and math practical.</li>
+          <li>Students gain <strong>digital confidence</strong>, ensuring they become creators, not just consumers.</li>
+        </ul>
+
+        <h3>Why This Matters for Your School</h3>
+        <ul>
+          <li>Position your school as a forward-looking institution with future-ready skills.</li>
+          <li>Raise your profile among parents eager to see their children excel in technology.</li>
+          <li>Provide opportunities for coding & robotics competitions that bring recognition and prestige.</li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <h3>What the Club Offers</h3>
+        <p>Our curriculum is hands-on, exciting, and tailored for secondary school learners. Areas we cover include:</p>
+        <ul>
+          <li>Web Development using <strong>HTML, CSS, JavaScript</strong>.</li>
+          <li>Game Development with <strong>Scratch, Kodu, and Python</strong>.</li>
+          <li>Robotics & Hardware Programming with <strong>Arduino</strong>.</li>
+          <li>App Development on beginner-friendly platforms.</li>
+          <li>Problem-Solving Challenges to sharpen critical thinking.</li>
+        </ul>
+        <p>
+          Each module ensures students don’t just memorize code but actually build projects—websites, apps, robots, and games. 
+          They leave with both knowledge and a <strong>portfolio of creations</strong>.
+        </p>
+      </div>
+    </div>
+
+    <div class="closing">
+      <p>
+        At MEKS Coding Club, we believe every child has the potential to invent, innovate, and inspire. 
+        By hosting the club at your school, you provide students with more than an extracurricular activity—you give them a 
+        <strong>launchpad into the future of technology</strong>.
+      </p>
+      <p><em>We would be delighted to meet with you to discuss how the club can be integrated into your school. Together, we can empower the next generation of innovators.</em></p>
+    </div>
+  </div>
+</section>
+
+  <!-- WHAT WE OFFER SECTION -->
+<section id="offer" class="offer-section">
+  <div class="container">
+    <h2>What We Offer</h2>
+    <p class="subtitle">
+      At MEKS Coding & Robotic Club, we provide students with hands-on opportunities to 
+      explore technology and build future-ready skills.
+    </p>
+
+    <div class="offer-grid">
+      <div class="offer-card">
+        <i class="fas fa-code"></i>
+        <h3>HTML, CSS & JavaScript</h3>
+        <p>Master the fundamentals of web development and build real websites from scratch.</p>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Coding Classes</h3>
+        <p>Engaging lessons in Scratch, Python, and web development for kids & teens.</p>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-gamepad"></i>
+        <h3>Game Development</h3>
+        <p>Create fun and interactive games while learning logic, creativity, and teamwork.</p>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-user-graduate"></i>
+        <h3>Mentorship & Career Guidance</h3>
+        <p>One-on-one mentorship to inspire, guide, and prepare students for tech careers.</p>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-robot"></i>
+        <h3>Kids & Teens Tech Programs</h3>
+        <p>Hands-on robotics, app building, and coding programs tailored for young learners.</p>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-microchip"></i>
+        <h3>Robotics & Hardware Programming</h3>
+        <p>Explore Arduino, sensors, and electronics while building robots and smart devices.</p>
+      </div>
+
+      <div class="offer-card">
+        <i class="fas fa-puzzle-piece"></i>
+        <h3>Problem-Solving Challenges</h3>
+        <p>Sharpen critical thinking skills through coding challenges, competitions, and projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="gallery" class="gallery-section">
+  <div class="container">
+    <h2>Our Gallery</h2>
+    <p class="subtitle">A glimpse into our coding and robotics activities, workshops, and student projects.</p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="image/istockphoto-2189337536-612x612.webp" alt="Gallery Image 1" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="image/istockphoto-2173640219-612x612.webp" alt="Gallery Image 2" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="image/istockphoto-2077222742-612x612.jpg" alt="Gallery Image 3" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="image/istockphoto-2204916274-612x612.jpg" alt="Gallery Image 4" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="image/istockphoto-2077355974-612x612.jpg" alt="Gallery Image 5" onclick="openModal(this)">
+      </div>
+      <div class="gallery-item">
+        <img src="image/istockphoto-1569540490-612x612.jpg" alt="Gallery Image 6" onclick="openModal(this)">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL FOR IMAGE PREVIEW -->
+<div id="galleryModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+
+  <section id="join" class="join-section">
+  <div class="overlay">
+    <div class="join-content">
+      <h2>Join Us at MEKS Coding & Robotic Club</h2>
+      <p>
+        Be part of a creative community where young minds explore coding, robotics, 
+        and problem-solving. Together, we are shaping the next generation of tech innovators.
+      </p>
+      <a href="" class="btn">Get Started</a>
+      <a href="" class="btn btn-outline">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br>
+
+  <section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p class="subtitle">We’d love to hear from you! Reach out for inquiries, collaborations, or to join our club.</p>
+
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form action="#" method="post">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="info-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Our Address</h3>
+          <p>N0_ 37 Old Abakiliki Road Igwe Plaza<br>Oye Emene, Enugu State</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-phone"></i>
+          <h3>Call Us</h3>
+          <p>+234 703 804 5970</p>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-envelope"></i>
+          <h3>Email Us</h3>
+          <p>meksdigitech@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> MEKS Coding & Robotic Club | All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
